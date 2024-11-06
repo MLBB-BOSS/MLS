@@ -1,0 +1,49 @@
+{
+    "name": "Claude",
+    "class": "Marksman",
+    "role": "Стрілець з потужними атаками на середній та дальній відстані",
+    "speed": "Висока",
+    "hp": "Середній",
+    "physical_defense": "Середній",
+    "magical_defense": "Середній",
+    "attack_speed": "Висока",
+    "skills": {
+        "passive": {
+            "name": "Battle Side-by-Side",
+            "description": "Dexter допомагає Claude в атаці, завдаючи додаткової шкоди."
+        },
+        "skill1": {
+            "name": "Art of Thievery",
+            "description": "Claude завдає шкоди супротивникам навколо і тимчасово підвищує свою швидкість атаки та руху.",
+            "cooldown": "5 секунд",
+            "mana_cost": 50
+        },
+        "skill2": {
+            "name": "Battle Mirror Image",
+            "description": "Claude створює дзеркальний образ і може телепортуватися до нього, щоб обійти ворогів.",
+            "cooldown": "10 секунд",
+            "mana_cost": 75
+        },
+        "ultimate": {
+            "name": "Blazing Duet",
+            "description": "Claude і Dexter розпочинають серію атак, що завдає масову шкоду ворогам поблизу.",
+            "cooldown": "50 секунд",
+            "mana_cost": 120
+        }
+    },
+    "strategies": {
+        "aggressive": "Використовуйте Art of Thievery для посилення швидкості атаки і руху, щоб переслідувати ворогів.",
+        "defensive": "Застосовуйте Battle Mirror Image для втечі від небезпечних ситуацій.",
+        "micro": "Оптимальне використання Blazing Duet в масових боях для максимального завдання шкоди."
+    },
+    "recommendations": {
+        "early_game": "Фокус на фарм і збільшення швидкості атаки.",
+        "mid_game": "Активне використання Battle Mirror Image для переміщень і уникання сутичок.",
+        "late_game": "Максимальне використання Blazing Duet для вирішальних командних боїв."
+    },
+    "drafts": {
+        "ideal_allies": "Герої з високим контролем натовпу, щоб утримати ворогів на місці.",
+        "avoid_enemies": "Герої з високою мобільністю та сильною миттєвою шкодою.",
+        "strong_drafts": "Команди, які можуть захистити Claude і дозволити йому завдати максимум шкоди."
+    }
+}
