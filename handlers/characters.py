@@ -133,8 +133,10 @@ def format_ai_response(ai_text: str) -> str:
     return formatted_text
 
 async def get_hero_info(hero_name: str, context: ContextTypes.DEFAULT_TYPE) -> str:
-    """Функція для отримання детальної інформації про героя через OpenAI API."""
     try:
+        # Your code here
+    except Exception as e:
+        # Handle exceptions here
         heroes_data = context.bot_data.get('heroes_data', {})
         hero_info = heroes_data.get(hero_name)
 
